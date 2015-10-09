@@ -1,0 +1,6 @@
+pages\fragments\ChangePasswordPopupFragment.class
+utils\UserData.class
+pages\LandingPage.class
+pages\fragments\SignInPopupFragment.class
+pages\UserProfilePage.class
+utils\CommonUtils.class

@@ -1,4 +1,4 @@
-<acceptance-test-run title="Login with valid credentials" name="OksanaMethod2" steps="1" successful="1" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="7814" timestamp="2015-10-08T15:04:16.538+03:00">
+<acceptance-test-run title="Oksana test 2" name="OksanaMethod2" steps="1" successful="1" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="8586" timestamp="2015-10-09T18:10:49.875+03:00">
   <user-story id="requirements.Application.CofileLogin.LoginCofileCheck" name="Login cofile check" path="requirements.Application.CofileLogin">
     <feature id="requirements.Application.CofileLogin" name="Cofile login"/>
   </user-story>
@@ -7,9 +7,9 @@
     <tag name="Login cofile check" type="story"/>
     <tag name="Login" type="feature"/>
   </tags>
-  <test-step result="SUCCESS" duration="7813">
+  <test-step result="SUCCESS" duration="8584">
     <screenshots>
-      <screenshot image="screenshot-8224de114c8f49cb87da18a67eacaeb9f08a33f2e56195d78ea6ae3f006801343.png"/>
+      <screenshot image="screenshot-01f1f58be212a19b6ed11ab23cda596577cc8740cd66de9a739df0d223bdc7303.png"/>
     </screenshots>
     <description>Login to cofile: {kofileautomation@gmail.com, KofileTa01}</description>
   </test-step>

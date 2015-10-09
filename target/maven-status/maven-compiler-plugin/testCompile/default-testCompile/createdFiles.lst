@@ -1,0 +1,11 @@
+requirements\Application$CofileLogin$LoginCofileCheck.class
+tests\LoginCofileTest.class
+requirements\Application$UserProfile$EditUserProfile.class
+requirements\Application$CofileLogin.class
+requirements\Application$UserProfile$ChangePassword.class
+steps\UserProfileSteps.class
+requirements\Application.class
+tests\OksanaTest.class
+requirements\Application$UserProfile.class
+requirements\Application$UserProfile$VerifyAccessUserProfile.class
+steps\LoginSteps.class

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login cofile check","Login with valid credentials","SUCCESS","2015-10-09T18:10:40.753+03:00","0.0","7.09"
+"Login cofile check","Login without typing email","SUCCESS","2015-10-09T18:10:29.456+03:00","0.0","9.95"
+"Login cofile check","Oksana test 1","FAILURE","2015-10-09T18:10:49.859+03:00","0.0","0.01"
+"Login cofile check","Oksana test 2","SUCCESS","2015-10-09T18:10:49.875+03:00","0.0","8.59"

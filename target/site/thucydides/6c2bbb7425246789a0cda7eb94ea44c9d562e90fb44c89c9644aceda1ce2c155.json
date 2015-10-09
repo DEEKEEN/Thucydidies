@@ -1,5 +1,5 @@
 {
-  "title": "Login with valid credentials",
+  "title": "Oksana test 2",
   "name": "OksanaMethod2",
   "test-case": {
     "classname": "tests.OksanaTest"
@@ -11,8 +11,8 @@
   "skipped": "0",
   "ignored": "0",
   "pending": "0",
-  "duration": "7814",
-  "timestamp": "2015-10-08T15:04:16.538+03:00",
+  "duration": "8586",
+  "timestamp": "2015-10-09T18:10:49.875+03:00",
   "user-story": {
     "userStoryClass": {
       "classname": "requirements.Application$CofileLogin$LoginCofileCheck"
@@ -43,12 +43,12 @@
     {
       "number": 1,
       "description": "Login to cofile: {kofileautomation@gmail.com, KofileTa01}",
-      "duration": 7813,
-      "startTime": 1444305856539,
+      "duration": 8584,
+      "startTime": 1444403449877,
       "screenshots": [
         {
           "screenshot": {
-            "path": "target\\site\\thucydides\\screenshot-8224de114c8f49cb87da18a67eacaeb9f08a33f2e56195d78ea6ae3f006801343.png"
+            "path": "target\\site\\thucydides\\screenshot-01f1f58be212a19b6ed11ab23cda596577cc8740cd66de9a739df0d223bdc7303.png"
           }
         }
       ],

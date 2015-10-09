@@ -45,14 +45,14 @@ public class OksanaTest {
     }
 
     @Test
-    @Title("Login without typing email")
+    @Title("Oksana test 1")
     public void OksanaMethod1() throws InterruptedException {
         assertThat("Errors are not valid", false);
         //loginSteps.checkLoginErrors(errors);
     }
 
     @Test
-    @Title("Login with valid credentials")
+    @Title("Oksana test 2")
     public void OksanaMethod2() {
         loginSteps.login_to_cofile(UserData.USERNAME, UserData.PASS);
         assertThat("Errors are not valid", true);

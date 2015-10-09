@@ -11,8 +11,8 @@
   "skipped": "0",
   "ignored": "0",
   "pending": "0",
-  "duration": "11474",
-  "timestamp": "2015-10-08T15:03:56.798+03:00",
+  "duration": "9948",
+  "timestamp": "2015-10-09T18:10:29.456+03:00",
   "user-story": {
     "userStoryClass": {
       "classname": "requirements.Application$CofileLogin$LoginCofileCheck"
@@ -43,8 +43,8 @@
     {
       "number": 1,
       "description": "Login to cofile: {, KofileTa01}",
-      "duration": 6420,
-      "startTime": 1444305841851,
+      "duration": 9895,
+      "startTime": 1444403429508,
       "screenshots": [
         {
           "screenshot": {

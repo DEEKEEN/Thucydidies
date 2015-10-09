@@ -11,8 +11,8 @@
   "skipped": "0",
   "ignored": "0",
   "pending": "0",
-  "duration": "5006",
-  "timestamp": "2015-10-08T15:04:09.531+03:00",
+  "duration": "7093",
+  "timestamp": "2015-10-09T18:10:40.753+03:00",
   "user-story": {
     "userStoryClass": {
       "classname": "requirements.Application$CofileLogin$LoginCofileCheck"
@@ -43,8 +43,8 @@
     {
       "number": 1,
       "description": "Login to cofile: {kofileautomation@gmail.com, KofileTa01}",
-      "duration": 5001,
-      "startTime": 1444305849536,
+      "duration": 7089,
+      "startTime": 1444403440757,
       "screenshots": [
         {
           "screenshot": {
