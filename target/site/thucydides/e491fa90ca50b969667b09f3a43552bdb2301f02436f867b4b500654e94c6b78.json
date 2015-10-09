@@ -1,0 +1,43 @@
+{
+  "title": "Login without typing email",
+  "name": "OksanaMethod1",
+  "test-case": {
+    "classname": "tests.OksanaTest"
+  },
+  "result": "FAILURE",
+  "steps": "0",
+  "successful": "0",
+  "failures": "0",
+  "skipped": "0",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "3",
+  "timestamp": "2015-10-08T15:04:16.528+03:00",
+  "user-story": {
+    "userStoryClass": {
+      "classname": "requirements.Application$CofileLogin$LoginCofileCheck"
+    },
+    "qualifiedStoryClassName": "requirements.Application.CofileLogin.LoginCofileCheck",
+    "storyName": "Login cofile check",
+    "path": "requirements.Application.CofileLogin",
+    "qualifiedFeatureClassName": "requirements.Application.CofileLogin",
+    "featureName": "Cofile login"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Cofile login",
+      "type": "feature"
+    },
+    {
+      "name": "Login cofile check",
+      "type": "story"
+    },
+    {
+      "name": "Login",
+      "type": "feature"
+    }
+  ],
+  "test-steps": []
+}

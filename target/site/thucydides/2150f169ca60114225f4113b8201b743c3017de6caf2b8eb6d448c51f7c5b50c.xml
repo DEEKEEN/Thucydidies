@@ -1,0 +1,16 @@
+<acceptance-test-run title="Login without typing email" name="LoginWithoutEmailCredentials" steps="1" successful="1" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="11474" timestamp="2015-10-08T15:03:56.798+03:00">
+  <user-story id="requirements.Application.CofileLogin.LoginCofileCheck" name="Login cofile check" path="requirements.Application.CofileLogin">
+    <feature id="requirements.Application.CofileLogin" name="Cofile login"/>
+  </user-story>
+  <tags>
+    <tag name="Cofile login" type="feature"/>
+    <tag name="Login cofile check" type="story"/>
+    <tag name="Login" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="6420">
+    <screenshots>
+      <screenshot image="screenshot-bd532b8bcdc37628b0d295155b209a385e29e37ad7b2a76b503179832d68182f1.png"/>
+    </screenshots>
+    <description>Login to cofile: {, KofileTa01}</description>
+  </test-step>
+</acceptance-test-run>

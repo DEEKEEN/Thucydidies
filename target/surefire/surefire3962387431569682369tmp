@@ -1,0 +1,6 @@
+#surefire
+#Thu Oct 08 15:03:55 EEST 2015
+user.dir=D\:\\Workspace\\Thycididies
+webdriver.driver=chrome
+localRepository=C\:\\Users\\rtret\\.m2\\repository
+basedir=D\:\\Workspace\\Thycididies
