@@ -48,7 +48,7 @@ public class LoginCofileTest {
     public void LoginWithoutEmailCredentials() throws InterruptedException {
         List<String> errors = new ArrayList<String>();
         errors.add("Enter your Email Id.");
-        Thread.sleep(5000);
+       
         loginSteps.login_to_cofile("", UserData.PASS);
 
         //loginSteps.checkLoginErrors(errors);
@@ -59,6 +59,9 @@ public class LoginCofileTest {
     public void LoginWithValidCredentials() {
         loginSteps.login_to_cofile(UserData.USERNAME, UserData.PASS);
         //loginSteps.checkLoggedUser(UserData.NICKNAME);
+
+
+
     }
 
 }
