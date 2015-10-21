@@ -1,11 +1,7 @@
-requirements\Application$CofileLogin$LoginCofileCheck.class
-tests\LoginCofileTest.class
-requirements\Application$UserProfile$EditUserProfile.class
-requirements\Application$CofileLogin.class
-requirements\Application$UserProfile$ChangePassword.class
 steps\UserProfileSteps.class
 requirements\Application.class
-tests\OksanaTest.class
-requirements\Application$UserProfile.class
-requirements\Application$UserProfile$VerifyAccessUserProfile.class
+requirements\Application$GmailLetterCheck$LetterCheck.class
+tests\GmailLoginTest.class
+requirements\Application$GmailLetterCheck.class
 steps\LoginSteps.class
+steps\LetterSteps.class

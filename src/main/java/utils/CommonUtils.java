@@ -1,30 +1,47 @@
 package utils;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
 
-import java.util.List;
+import models.DefaultLetter;
+import models.User;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 /**
- * Created by Roman_Tretyak on 5/21/2015.
+ * Created by Roman_Tretyak on 8/4/2015.
  */
-public  class CommonUtils {
-    protected static final Logger log = LogManager.getLogger(CommonUtils.class);
+public class CommonUtils {
 
-    public static boolean compareTwoLists(List<String> a, List<String> b){
+    public static User createNewUser() {
+        User user = new User();
+        user.setLogin("testmail8601");
+        user.setPassword("qqqqqqqqqqq");
+        user.setUserName("testmail8601@gmail.com");
+        return user;
+    }
 
-        if (a.size() != b.size()){
-            log.info("Collections are different by size");
-            return false;
+    public static DefaultLetter createDefaultLetter() {
+        DefaultLetter letter = new DefaultLetter();
+        letter.setTitle("Automation Test");
+        letter.setSender("TRETYAK Roman");
+        letter.setContent("Hello World");
+        return letter;
+    }
+
+    public static String getProperty(String propertyName) {
+        Properties prop = new Properties();
+        InputStream input = null;
+        try {
+            input = new FileInputStream("conf.properties");
+            prop.load(input);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-        for (int i = 0; i < a.size(); i++) {
-            log.info("Comparing two Lists: " + a.get(i) + " with " + b.get(i));
-            if (!a.get(i).equalsIgnoreCase(b.get(i))) {
-                log.info("Array " + a.get(i) + " are different with array " + b.get(i));
-                return false;
-            }
-        }
-        return true;
+        return prop.getProperty(propertyName);
     }
 }

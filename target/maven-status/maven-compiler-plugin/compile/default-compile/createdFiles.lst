@@ -1,6 +1,9 @@
-pages\fragments\ChangePasswordPopupFragment.class
-utils\UserData.class
 pages\LandingPage.class
-pages\fragments\SignInPopupFragment.class
+pages\GmailLoginPage.class
 pages\UserProfilePage.class
+models\User.class
+pages\fragments\ChangePasswordPopupFragment.class
+models\DefaultLetter.class
+pages\fragments\SignInPopupFragment.class
+pages\GmailHomePage.class
 utils\CommonUtils.class

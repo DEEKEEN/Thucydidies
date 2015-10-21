@@ -1,6 +1,9 @@
 D:\Workspace\Thycididies\src\main\java\pages\LandingPage.java
 D:\Workspace\Thycididies\src\main\java\pages\UserProfilePage.java
 D:\Workspace\Thycididies\src\main\java\pages\fragments\ChangePasswordPopupFragment.java
-D:\Workspace\Thycididies\src\main\java\utils\UserData.java
+D:\Workspace\Thycididies\src\main\java\pages\GmailHomePage.java
 D:\Workspace\Thycididies\src\main\java\utils\CommonUtils.java
+D:\Workspace\Thycididies\src\main\java\models\DefaultLetter.java
+D:\Workspace\Thycididies\src\main\java\models\User.java
+D:\Workspace\Thycididies\src\main\java\pages\GmailLoginPage.java
 D:\Workspace\Thycididies\src\main\java\pages\fragments\SignInPopupFragment.java

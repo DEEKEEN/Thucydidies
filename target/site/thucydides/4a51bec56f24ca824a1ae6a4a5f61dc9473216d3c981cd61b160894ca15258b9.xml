@@ -1,0 +1,22 @@
+<acceptance-test-run title="Login to Gmail" name="LoginTest" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12688" timestamp="2015-10-21T17:41:21.791+03:00">
+  <user-story id="requirements.Application.GmailLetterCheck.LetterCheck" name="Letter check" path="requirements.Application.GmailLetterCheck">
+    <feature id="requirements.Application.GmailLetterCheck" name="Gmail letter check"/>
+  </user-story>
+  <tags>
+    <tag name="Letter" type="feature"/>
+    <tag name="Letter check" type="story"/>
+    <tag name="Gmail letter check" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4901">
+    <screenshots>
+      <screenshot image="screenshot-525173b919f0c021c4ec7834b91512e503c635e3cf0ac2d4da68759ceb11047c8.png"/>
+    </screenshots>
+    <description>Open Gmail Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7785">
+    <screenshots>
+      <screenshot image="screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef3310.png"/>
+    </screenshots>
+    <description>Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}</description>
+  </test-step>
+</acceptance-test-run>

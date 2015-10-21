@@ -1,0 +1,74 @@
+{
+  "title": "Login to Gmail",
+  "name": "LoginTest",
+  "test-case": {
+    "classname": "tests.GmailLoginTest"
+  },
+  "result": "SUCCESS",
+  "steps": "2",
+  "successful": "2",
+  "failures": "0",
+  "skipped": "0",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "12688",
+  "timestamp": "2015-10-21T17:41:21.791+03:00",
+  "user-story": {
+    "userStoryClass": {
+      "classname": "requirements.Application$GmailLetterCheck$LetterCheck"
+    },
+    "qualifiedStoryClassName": "requirements.Application.GmailLetterCheck.LetterCheck",
+    "storyName": "Letter check",
+    "path": "requirements.Application.GmailLetterCheck",
+    "qualifiedFeatureClassName": "requirements.Application.GmailLetterCheck",
+    "featureName": "Gmail letter check"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Letter",
+      "type": "feature"
+    },
+    {
+      "name": "Letter check",
+      "type": "story"
+    },
+    {
+      "name": "Gmail letter check",
+      "type": "feature"
+    }
+  ],
+  "test-steps": [
+    {
+      "number": 1,
+      "description": "Open Gmail Page Step",
+      "duration": 4901,
+      "startTime": 1445438481792,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-525173b919f0c021c4ec7834b91512e503c635e3cf0ac2d4da68759ceb11047c8.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 2,
+      "description": "Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}",
+      "duration": 7785,
+      "startTime": 1445438486694,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef3310.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    }
+  ]
+}

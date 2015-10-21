@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <thucydides.version>0.9.228</thucydides.version>
         <webdriver.driver>chrome</webdriver.driver>
-        <webdriver.base.url>http://google.com</webdriver.base.url>
+        <webdriver.base.url>http://gmail.com</webdriver.base.url>
     </properties>
 
     <dependencies>

@@ -1,0 +1,104 @@
+{
+  "title": "CheckingLetter",
+  "name": "CheckingLetter",
+  "test-case": {
+    "classname": "tests.GmailLoginTest"
+  },
+  "result": "SUCCESS",
+  "steps": "4",
+  "successful": "4",
+  "failures": "0",
+  "skipped": "0",
+  "ignored": "0",
+  "pending": "0",
+  "duration": "17748",
+  "timestamp": "2015-10-21T17:41:02.805+03:00",
+  "user-story": {
+    "userStoryClass": {
+      "classname": "requirements.Application$GmailLetterCheck$LetterCheck"
+    },
+    "qualifiedStoryClassName": "requirements.Application.GmailLetterCheck.LetterCheck",
+    "storyName": "Letter check",
+    "path": "requirements.Application.GmailLetterCheck",
+    "qualifiedFeatureClassName": "requirements.Application.GmailLetterCheck",
+    "featureName": "Gmail letter check"
+  },
+  "issues": [],
+  "versions": [],
+  "tags": [
+    {
+      "name": "Letter",
+      "type": "feature"
+    },
+    {
+      "name": "Letter check",
+      "type": "story"
+    },
+    {
+      "name": "Gmail letter check",
+      "type": "feature"
+    }
+  ],
+  "test-steps": [
+    {
+      "number": 1,
+      "description": "Open Gmail Page Step",
+      "duration": 6234,
+      "startTime": 1445438462868,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-e665fb47c502b33c8cd9dfebf773221a47cc8e56348ca768dda86ca59c62915e1.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 2,
+      "description": "Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}",
+      "duration": 5202,
+      "startTime": 1445438469104,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e3.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 3,
+      "description": "Open letter: {TRETYAK Roman}",
+      "duration": 5597,
+      "startTime": 1445438474307,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-23220ed16975c3858edad1276ea61b43f4c66911625f439352a7b9007f2d221d5.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    },
+    {
+      "number": 4,
+      "description": "Check letter content: {TRETYAK Roman, Hello World, Automation Test}",
+      "duration": 647,
+      "startTime": 1445438479905,
+      "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-f887de5a46e62e0c60278b8d62c15c06179a70f1ce107793b640458fb34ef74d7.png"
+          }
+        }
+      ],
+      "result": "SUCCESS",
+      "children": []
+    }
+  ]
+}
