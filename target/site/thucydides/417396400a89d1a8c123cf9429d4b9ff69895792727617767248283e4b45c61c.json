@@ -11,8 +11,8 @@
   "skipped": "0",
   "ignored": "0",
   "pending": "0",
-  "duration": "17748",
-  "timestamp": "2015-10-21T17:41:02.805+03:00",
+  "duration": "14480",
+  "timestamp": "2015-10-22T15:40:41.496+03:00",
   "user-story": {
     "userStoryClass": {
       "classname": "requirements.Application$GmailLetterCheck$LetterCheck"
@@ -43,8 +43,8 @@
     {
       "number": 1,
       "description": "Open Gmail Page Step",
-      "duration": 6234,
-      "startTime": 1445438462868,
+      "duration": 4963,
+      "startTime": 1445517641557,
       "screenshots": [
         {
           "screenshot": {
@@ -58,9 +58,14 @@
     {
       "number": 2,
       "description": "Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}",
-      "duration": 5202,
-      "startTime": 1445438469104,
+      "duration": 6846,
+      "startTime": 1445517646522,
       "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e2.png"
+          }
+        },
         {
           "screenshot": {
             "path": "target\\site\\thucydides\\screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e3.png"
@@ -73,8 +78,8 @@
     {
       "number": 3,
       "description": "Open letter: {TRETYAK Roman}",
-      "duration": 5597,
-      "startTime": 1445438474307,
+      "duration": 1812,
+      "startTime": 1445517653368,
       "screenshots": [
         {
           "screenshot": {
@@ -88,8 +93,8 @@
     {
       "number": 4,
       "description": "Check letter content: {TRETYAK Roman, Hello World, Automation Test}",
-      "duration": 647,
-      "startTime": 1445438479905,
+      "duration": 794,
+      "startTime": 1445517655181,
       "screenshots": [
         {
           "screenshot": {

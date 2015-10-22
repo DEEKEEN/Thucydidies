@@ -11,6 +11,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <thucydides.version>0.9.228</thucydides.version>
+        <webdriver.chrome.driver>./src/test/resources/chromedriver.exe</webdriver.chrome.driver>
+        <webdriver.ie.driver>./src/test/resources/IEDriverServer.exe</webdriver.ie.driver>
         <webdriver.driver>chrome</webdriver.driver>
         <webdriver.base.url>http://gmail.com</webdriver.base.url>
     </properties>
@@ -54,26 +56,18 @@
                 <version>2.12</version>
                 <configuration>
                     <systemPropertyVariables>
+                        <webdriver.ie.driver>${webdriver.ie.driver}</webdriver.ie.driver>
+                        <webdriver.chrome.driver>${webdriver.chrome.driver}</webdriver.chrome.driver>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
                     </systemPropertyVariables>
                         <skip>true</skip>
                 </configuration>
             </plugin>
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-project-info-reports-plugin</artifactId>-->
-                <!--<version>2.8.1</version>-->
-            <!--</plugin>-->
             <plugin>
                 <groupId>net.thucydides.maven.plugins</groupId>
                 <artifactId>maven-thucydides-plugin</artifactId>
                 <version>${thucydides.version}</version>
             </plugin>
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-site-plugin</artifactId>-->
-                <!--<version>3.0-beta-3</version>-->
-            <!--</plugin>-->
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.12</version>
@@ -103,30 +97,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.0-beta-3</version>
-                <!--<configuration>-->
-                    <!--<reportPlugins>-->
-                        <!--<plugin>-->
-                            <!--<groupId>org.apache.maven.plugins</groupId>-->
-                            <!--<artifactId>maven-project-info-reports-plugin-->
-                            <!--</artifactId>-->
-                            <!--<version>2.8.1</version>-->
-                        <!--</plugin>-->
-                        <!--<plugin>-->
-                            <!--<groupId>net.thucydides.maven.plugins</groupId>-->
-                            <!--<artifactId>maven-thucydides-plugin</artifactId>-->
-                            <!--<version>${thucydides.version}</version>-->
-                        <!--</plugin>-->
-                    <!--</reportPlugins>-->
-                <!--</configuration>-->
             </plugin>
         </plugins>
     </build>
-
-    <!--<reporting><plugins>-->
-        <!--<plugin>-->
-            <!--<groupId>net.thucydides.maven.plugins</groupId>-->
-            <!--<artifactId>maven-thucydides-plugin</artifactId>-->
-            <!--<version>${thucydides.version}</version>-->
-        <!--</plugin>-->
-    <!--</plugins></reporting>-->
 </project>

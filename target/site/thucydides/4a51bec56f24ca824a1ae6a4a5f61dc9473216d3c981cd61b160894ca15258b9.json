@@ -4,15 +4,16 @@
   "test-case": {
     "classname": "tests.GmailLoginTest"
   },
-  "result": "SUCCESS",
+  "result": "ERROR",
   "steps": "2",
-  "successful": "2",
+  "successful": "1",
   "failures": "0",
+  "errors": "1",
   "skipped": "0",
   "ignored": "0",
   "pending": "0",
-  "duration": "12688",
-  "timestamp": "2015-10-21T17:41:21.791+03:00",
+  "duration": "24406",
+  "timestamp": "2015-10-22T15:40:57.277+03:00",
   "user-story": {
     "userStoryClass": {
       "classname": "requirements.Application$GmailLetterCheck$LetterCheck"
@@ -43,8 +44,8 @@
     {
       "number": 1,
       "description": "Open Gmail Page Step",
-      "duration": 4901,
-      "startTime": 1445438481792,
+      "duration": 4935,
+      "startTime": 1445517657279,
       "screenshots": [
         {
           "screenshot": {
@@ -58,16 +59,20 @@
     {
       "number": 2,
       "description": "Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}",
-      "duration": 7785,
-      "startTime": 1445438486694,
+      "duration": 19465,
+      "startTime": 1445517662215,
       "screenshots": [
         {
           "screenshot": {
-            "path": "target\\site\\thucydides\\screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef3310.png"
+            "path": "target\\site\\thucydides\\screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef339.png"
           }
         }
       ],
-      "result": "SUCCESS",
+      "cause": {
+        "class": "net.thucydides.core.steps.StepFailureException",
+        "message": "java.lang.NullPointerException"
+      },
+      "result": "ERROR",
       "children": []
     }
   ]

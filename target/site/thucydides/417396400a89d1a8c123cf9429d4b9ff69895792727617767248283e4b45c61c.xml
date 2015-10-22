@@ -1,4 +1,4 @@
-<acceptance-test-run title="CheckingLetter" name="CheckingLetter" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17748" timestamp="2015-10-21T17:41:02.805+03:00">
+<acceptance-test-run title="CheckingLetter" name="CheckingLetter" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="14480" timestamp="2015-10-22T15:40:41.496+03:00">
   <user-story id="requirements.Application.GmailLetterCheck.LetterCheck" name="Letter check" path="requirements.Application.GmailLetterCheck">
     <feature id="requirements.Application.GmailLetterCheck" name="Gmail letter check"/>
   </user-story>
@@ -7,25 +7,26 @@
     <tag name="Letter check" type="story"/>
     <tag name="Gmail letter check" type="feature"/>
   </tags>
-  <test-step result="SUCCESS" duration="6234">
+  <test-step result="SUCCESS" duration="4963">
     <screenshots>
       <screenshot image="screenshot-e665fb47c502b33c8cd9dfebf773221a47cc8e56348ca768dda86ca59c62915e1.png"/>
     </screenshots>
     <description>Open Gmail Page Step</description>
   </test-step>
-  <test-step result="SUCCESS" duration="5202">
+  <test-step result="SUCCESS" duration="6846">
     <screenshots>
+      <screenshot image="screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e2.png"/>
       <screenshot image="screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e3.png"/>
     </screenshots>
     <description>Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}</description>
   </test-step>
-  <test-step result="SUCCESS" duration="5597">
+  <test-step result="SUCCESS" duration="1812">
     <screenshots>
       <screenshot image="screenshot-23220ed16975c3858edad1276ea61b43f4c66911625f439352a7b9007f2d221d5.png"/>
     </screenshots>
     <description>Open letter: {TRETYAK Roman}</description>
   </test-step>
-  <test-step result="SUCCESS" duration="647">
+  <test-step result="SUCCESS" duration="794">
     <screenshots>
       <screenshot image="screenshot-f887de5a46e62e0c60278b8d62c15c06179a70f1ce107793b640458fb34ef74d7.png"/>
     </screenshots>

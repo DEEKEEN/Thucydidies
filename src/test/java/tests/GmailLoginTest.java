@@ -26,7 +26,6 @@ public class GmailLoginTest {
     @Managed
     public WebDriver webdriver;
 
-
     @ManagedPages
     public Pages pages;
 
@@ -38,9 +37,6 @@ public class GmailLoginTest {
 
     @Before
     public void myTest() throws Exception {
-
-        //System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
-        System.setProperty("webdriver.iexplorer.driver", "./src/test/resources/IEDriverServer.exe");
         letter = CommonUtils.createDefaultLetter();
         user = CommonUtils.createNewUser();
         loginSteps.openGmail();
@@ -49,14 +45,12 @@ public class GmailLoginTest {
     @Test
     @Title("Login to Gmail")
     public void LoginTest() throws InterruptedException {
-        //webdriver.get("http://gmail.com");
         loginSteps.login(user.getLogin(), user.getPassword(), user.getUserName());
     }
 
     @Test
     @Title("CheckingLetter")
     public void CheckingLetter() {
-        //webdriver.get("http://gmail.com");
         loginSteps.login(user.getLogin(), user.getPassword(), user.getUserName());
         loginSteps.openLetter(letter.getSender());
         loginSteps.checkLetterContent(letter.getSender(), letter.getContent(), letter.getTitle());
