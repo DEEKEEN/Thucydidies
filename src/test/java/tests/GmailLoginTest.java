@@ -39,7 +39,8 @@ public class GmailLoginTest {
     @Before
     public void myTest() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
+        System.setProperty("webdriver.iexplorer.driver", "./src/test/resources/IEDriverServer.exe");
         letter = CommonUtils.createDefaultLetter();
         user = CommonUtils.createNewUser();
         loginSteps.openGmail();
