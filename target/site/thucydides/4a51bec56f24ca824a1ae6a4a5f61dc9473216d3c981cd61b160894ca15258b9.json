@@ -12,8 +12,8 @@
   "skipped": "0",
   "ignored": "0",
   "pending": "0",
-  "duration": "24406",
-  "timestamp": "2015-10-22T15:40:57.277+03:00",
+  "duration": "42887",
+  "timestamp": "2015-10-22T15:54:27.103+03:00",
   "user-story": {
     "userStoryClass": {
       "classname": "requirements.Application$GmailLetterCheck$LetterCheck"
@@ -44,8 +44,8 @@
     {
       "number": 1,
       "description": "Open Gmail Page Step",
-      "duration": 4935,
-      "startTime": 1445517657279,
+      "duration": 6753,
+      "startTime": 1445518467104,
       "screenshots": [
         {
           "screenshot": {
@@ -59,18 +59,18 @@
     {
       "number": 2,
       "description": "Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}",
-      "duration": 19465,
-      "startTime": 1445517662215,
+      "duration": 36132,
+      "startTime": 1445518473857,
       "screenshots": [
         {
           "screenshot": {
-            "path": "target\\site\\thucydides\\screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef339.png"
+            "path": "target\\site\\thucydides\\screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef3310.png"
           }
         }
       ],
       "cause": {
         "class": "net.thucydides.core.steps.StepFailureException",
-        "message": "java.lang.NullPointerException"
+        "message": "org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element: Element is not usable [[ChromeDriver: chrome on XP (e950c235a254417c8ed24cebe0dae468)] -\u003e xpath: //a[contains(@title, \u0027Google Account\u0027)]]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.37.1\u0027, revision: \u0027a7c61cbd68657e133ae96672cf995890bad2ee42\u0027, time: \u00272013-10-21 09:08:07\u0027\nSystem info: host: \u0027CARNATION\u0027, ip: \u002710.8.37.89\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.7.0_79\u0027\nDriver info: driver.version: unknown\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.37.1\u0027, revision: \u0027a7c61cbd68657e133ae96672cf995890bad2ee42\u0027, time: \u00272013-10-21 09:08:07\u0027\nSystem info: host: \u0027CARNATION\u0027, ip: \u002710.8.37.89\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.7.0_79\u0027\nDriver info: driver.version: unknown"
       },
       "result": "ERROR",
       "children": []

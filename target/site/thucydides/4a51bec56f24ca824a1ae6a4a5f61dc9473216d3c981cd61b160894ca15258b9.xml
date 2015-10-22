@@ -1,4 +1,4 @@
-<acceptance-test-run title="Login to Gmail" name="LoginTest" steps="2" successful="1" failures="0" errors="1" skipped="0" ignored="0" pending="0" result="ERROR" duration="24406" timestamp="2015-10-22T15:40:57.277+03:00">
+<acceptance-test-run title="Login to Gmail" name="LoginTest" steps="2" successful="1" failures="0" errors="1" skipped="0" ignored="0" pending="0" result="ERROR" duration="42887" timestamp="2015-10-22T15:54:27.103+03:00">
   <user-story id="requirements.Application.GmailLetterCheck.LetterCheck" name="Letter check" path="requirements.Application.GmailLetterCheck">
     <feature id="requirements.Application.GmailLetterCheck" name="Gmail letter check"/>
   </user-story>
@@ -7,19 +7,35 @@
     <tag name="Letter check" type="story"/>
     <tag name="Gmail letter check" type="feature"/>
   </tags>
-  <test-step result="SUCCESS" duration="4935">
+  <test-step result="SUCCESS" duration="6753">
     <screenshots>
       <screenshot image="screenshot-525173b919f0c021c4ec7834b91512e503c635e3cf0ac2d4da68759ceb11047c8.png"/>
     </screenshots>
     <description>Open Gmail Page Step</description>
   </test-step>
-  <test-step result="ERROR" duration="19465">
+  <test-step result="ERROR" duration="36132">
     <screenshots>
-      <screenshot image="screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef339.png"/>
+      <screenshot image="screenshot-9c2af6420d3844e8882fac07cf0279f7213fbdd3c973929f4416bc51e765ef3310.png"/>
     </screenshots>
     <description>Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}</description>
-    <error>java.lang.NullPointerException</error>
-    <exception>net.thucydides.core.steps.StepFailureException: java.lang.NullPointerException&#xd;
+    <error>org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element: Element is not usable [[ChromeDriver: chrome on XP (e950c235a254417c8ed24cebe0dae468)] -&gt; xpath: //a[contains(@title, &apos;Google Account&apos;)]]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown</error>
+    <exception>net.thucydides.core.steps.StepFailureException: org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element: Element is not usable [[ChromeDriver: chrome on XP (e950c235a254417c8ed24cebe0dae468)] -&gt; xpath: //a[contains(@title, &apos;Google Account&apos;)]]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown&#xd;
 	at net.thucydides.core.steps.BaseStepListener.recordFailureDetailsInFailingTestStep(BaseStepListener.java:486)&#xd;
 	at net.thucydides.core.steps.BaseStepListener.stepFailed(BaseStepListener.java:474)&#xd;
 	at net.thucydides.core.steps.StepEventBus.stepFailed(StepEventBus.java:298)&#xd;
@@ -28,7 +44,7 @@
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:264)&#xd;
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:127)&#xd;
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:53)&#xd;
-	at steps.LetterSteps$$EnhancerByCGLIB$$7b871c0.login(&lt;generated&gt;)&#xd;
+	at steps.LetterSteps$$EnhancerByCGLIB$$603b6853.login(&lt;generated&gt;)&#xd;
 	at tests.GmailLoginTest.LoginTest(GmailLoginTest.java:48)&#xd;
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)&#xd;
@@ -60,23 +76,46 @@
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
 	at java.lang.reflect.Method.invoke(Method.java:606)&#xd;
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)&#xd;
-Caused by: net.thucydides.core.webdriver.WebdriverAssertionError: java.lang.NullPointerException&#xd;
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator$SlowLoadingElement.isLoaded(SmartAjaxElementLocator.java:168)&#xd;
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:59)&#xd;
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:100)&#xd;
+Caused by: net.thucydides.core.webdriver.WebdriverAssertionError: org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element: Element is not usable [[ChromeDriver: chrome on XP (e950c235a254417c8ed24cebe0dae468)] -&gt; xpath: //a[contains(@title, &apos;Google Account&apos;)]]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown&#xd;
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:102)&#xd;
 	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:59)&#xd;
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)&#xd;
 	at com.sun.proxy.$Proxy22.getText(Unknown Source)&#xd;
 	at pages.GmailHomePage.getUserName(GmailHomePage.java:37)&#xd;
 	at steps.LetterSteps.login(LetterSteps.java:27)&#xd;
-	at steps.LetterSteps$$EnhancerByCGLIB$$7b871c0.CGLIB$login$1(&lt;generated&gt;)&#xd;
-	at steps.LetterSteps$$EnhancerByCGLIB$$7b871c0$$FastClassByCGLIB$$35a5cbc8.invoke(&lt;generated&gt;)&#xd;
+	at steps.LetterSteps$$EnhancerByCGLIB$$603b6853.CGLIB$login$1(&lt;generated&gt;)&#xd;
+	at steps.LetterSteps$$EnhancerByCGLIB$$603b6853$$FastClassByCGLIB$$bc124a75.invoke(&lt;generated&gt;)&#xd;
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#xd;
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:278)&#xd;
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:256)&#xd;
 	... 34 more&#xd;
-Caused by: java.lang.NullPointerException&#xd;
-	... 47 more&#xd;
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 30 seconds. Unable to locate the element: Element is not usable [[ChromeDriver: chrome on XP (e950c235a254417c8ed24cebe0dae468)] -&gt; xpath: //a[contains(@title, &apos;Google Account&apos;)]]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown&#xd;
+	... 45 more&#xd;
+Caused by: org.openqa.selenium.NoSuchElementException: Element is not usable [[ChromeDriver: chrome on XP (e950c235a254417c8ed24cebe0dae468)] -&gt; xpath: //a[contains(@title, &apos;Google Account&apos;)]]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;CARNATION&apos;, ip: &apos;10.8.37.89&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+Driver info: driver.version: unknown&#xd;
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator$SlowLoadingElement.isLoaded(SmartAjaxElementLocator.java:168)&#xd;
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:70)&#xd;
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:100)&#xd;
+	... 44 more&#xd;
 </exception>
   </test-step>
 </acceptance-test-run>

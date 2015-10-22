@@ -11,8 +11,8 @@
   "skipped": "0",
   "ignored": "0",
   "pending": "0",
-  "duration": "14480",
-  "timestamp": "2015-10-22T15:40:41.496+03:00",
+  "duration": "15418",
+  "timestamp": "2015-10-22T15:54:10.139+03:00",
   "user-story": {
     "userStoryClass": {
       "classname": "requirements.Application$GmailLetterCheck$LetterCheck"
@@ -43,8 +43,8 @@
     {
       "number": 1,
       "description": "Open Gmail Page Step",
-      "duration": 4963,
-      "startTime": 1445517641557,
+      "duration": 4658,
+      "startTime": 1445518450193,
       "screenshots": [
         {
           "screenshot": {
@@ -58,14 +58,9 @@
     {
       "number": 2,
       "description": "Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}",
-      "duration": 6846,
-      "startTime": 1445517646522,
+      "duration": 5269,
+      "startTime": 1445518454852,
       "screenshots": [
-        {
-          "screenshot": {
-            "path": "target\\site\\thucydides\\screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e2.png"
-          }
-        },
         {
           "screenshot": {
             "path": "target\\site\\thucydides\\screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e3.png"
@@ -78,9 +73,14 @@
     {
       "number": 3,
       "description": "Open letter: {TRETYAK Roman}",
-      "duration": 1812,
-      "startTime": 1445517653368,
+      "duration": 4583,
+      "startTime": 1445518460121,
       "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-23220ed16975c3858edad1276ea61b43f4c66911625f439352a7b9007f2d221d4.png"
+          }
+        },
         {
           "screenshot": {
             "path": "target\\site\\thucydides\\screenshot-23220ed16975c3858edad1276ea61b43f4c66911625f439352a7b9007f2d221d5.png"
@@ -93,9 +93,14 @@
     {
       "number": 4,
       "description": "Check letter content: {TRETYAK Roman, Hello World, Automation Test}",
-      "duration": 794,
-      "startTime": 1445517655181,
+      "duration": 851,
+      "startTime": 1445518464705,
       "screenshots": [
+        {
+          "screenshot": {
+            "path": "target\\site\\thucydides\\screenshot-f887de5a46e62e0c60278b8d62c15c06179a70f1ce107793b640458fb34ef74d6.png"
+          }
+        },
         {
           "screenshot": {
             "path": "target\\site\\thucydides\\screenshot-f887de5a46e62e0c60278b8d62c15c06179a70f1ce107793b640458fb34ef74d7.png"
