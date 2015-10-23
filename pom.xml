@@ -10,10 +10,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.228</thucydides.version>
+        <thucydides.version>0.9.275</thucydides.version>
         <webdriver.chrome.driver>./src/test/resources/chromedriver.exe</webdriver.chrome.driver>
         <webdriver.ie.driver>./src/test/resources/IEDriverServer.exe</webdriver.ie.driver>
-        <webdriver.driver>chrome</webdriver.driver>
+        <webdriver.driver>firefox</webdriver.driver>
         <webdriver.base.url>http://gmail.com</webdriver.base.url>
     </properties>
 
@@ -34,9 +34,9 @@
             <version>${thucydides.version}</version>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.6.1</version>
         </dependency>
     </dependencies>
     <build>

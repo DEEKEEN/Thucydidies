@@ -1,36 +1,27 @@
-<acceptance-test-run title="CheckingLetter" name="CheckingLetter" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="15418" timestamp="2015-10-22T15:54:10.139+03:00">
+<acceptance-test-run title="CheckingLetter" name="CheckingLetter" steps="4" successful="0" failures="1" skipped="3" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="191" timestamp="2015-10-23T16:45:47.859+03:00">
   <user-story id="requirements.Application.GmailLetterCheck.LetterCheck" name="Letter check" path="requirements.Application.GmailLetterCheck">
     <feature id="requirements.Application.GmailLetterCheck" name="Gmail letter check"/>
   </user-story>
   <tags>
+    <tag name="Gmail letter check" type="feature"/>
     <tag name="Letter" type="feature"/>
     <tag name="Letter check" type="story"/>
-    <tag name="Gmail letter check" type="feature"/>
   </tags>
-  <test-step result="SUCCESS" duration="4658">
-    <screenshots>
-      <screenshot image="screenshot-e665fb47c502b33c8cd9dfebf773221a47cc8e56348ca768dda86ca59c62915e1.png"/>
-    </screenshots>
+  <test-step result="FAILURE" duration="62">
     <description>Open Gmail Page Step</description>
+    <error>The page object class pages.GmailLoginPage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver)</error>
+    <exception>net.thucydides.core.pages.WrongPageError:The page object class pages.GmailLoginPage looks dodgy:
+Failed to instantiate page (net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver)&#xd;
+[steps.LetterSteps.gmailLoginPage(LetterSteps.java:59), steps.LetterSteps.openGmail(LetterSteps.java:64), tests.GmailLoginTest.myTest(GmailLoginTest.java:42)]</exception>
   </test-step>
-  <test-step result="SUCCESS" duration="5269">
-    <screenshots>
-      <screenshot image="screenshot-e1cc59799ebd411b52cf8d579497dfa6324bc9b3c5781035ff5ed12ae4021c4e3.png"/>
-    </screenshots>
-    <description>Login: {testmail8601, qqqqqqqqqqq, testmail8601@gmail.com}</description>
+  <test-step result="SKIPPED" duration="15">
+    <description>Login: &lt;span class=&apos;step-parameter&apos;&gt;testmail8601, qqqqqqqqqqq, testmail8601@gmail.com&lt;/span&gt;</description>
   </test-step>
-  <test-step result="SUCCESS" duration="4583">
-    <screenshots>
-      <screenshot image="screenshot-23220ed16975c3858edad1276ea61b43f4c66911625f439352a7b9007f2d221d4.png"/>
-      <screenshot image="screenshot-23220ed16975c3858edad1276ea61b43f4c66911625f439352a7b9007f2d221d5.png"/>
-    </screenshots>
-    <description>Open letter: {TRETYAK Roman}</description>
+  <test-step result="SKIPPED" duration="17">
+    <description>Open letter: &lt;span class=&apos;step-parameter&apos;&gt;TRETYAK Roman&lt;/span&gt;</description>
   </test-step>
-  <test-step result="SUCCESS" duration="851">
-    <screenshots>
-      <screenshot image="screenshot-f887de5a46e62e0c60278b8d62c15c06179a70f1ce107793b640458fb34ef74d6.png"/>
-      <screenshot image="screenshot-f887de5a46e62e0c60278b8d62c15c06179a70f1ce107793b640458fb34ef74d7.png"/>
-    </screenshots>
-    <description>Check letter content: {TRETYAK Roman, Hello World, Automation Test}</description>
+  <test-step result="SKIPPED" duration="11">
+    <description>Check letter content: &lt;span class=&apos;step-parameter&apos;&gt;TRETYAK Roman, Hello World, Automation Test&lt;/span&gt;</description>
   </test-step>
 </acceptance-test-run>
