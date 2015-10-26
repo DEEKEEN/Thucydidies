@@ -10,13 +10,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-
 import requirements.Application;
 import steps.LetterSteps;
 import utils.CommonUtils;
 
-import java.util.ArrayList;
-import java.util.List;
 
 @RunWith(ThucydidesRunner.class)
 @Story(Application.GmailLetterCheck.LetterCheck.class)
