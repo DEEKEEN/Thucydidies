@@ -1,3 +1,4 @@
+tests\Test1.class
 steps\UserProfileSteps.class
 requirements\Application.class
 requirements\Application$GmailLetterCheck$LetterCheck.class

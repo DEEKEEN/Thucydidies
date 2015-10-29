@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="tests.GmailLoginTest" skipped="0" tests="2" time="27.66" timestamp="2015-10-301 05:28:45"><testcase classname="tests.GmailLoginTest" name="CheckingLetter"/><testcase classname="tests.GmailLoginTest" name="Login to Gmail"/></testsuite>

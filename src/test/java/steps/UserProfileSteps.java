@@ -3,8 +3,6 @@ package steps;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.pages.Pages;
 import net.thucydides.core.steps.ScenarioSteps;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
 import pages.LandingPage;
 import pages.UserProfilePage;
 import pages.fragments.ChangePasswordPopupFragment;

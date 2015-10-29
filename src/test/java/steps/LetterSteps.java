@@ -2,10 +2,11 @@ package steps;
 
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
 import pages.GmailHomePage;
 import pages.GmailLoginPage;
+
+
+
 import static org.hamcrest.MatcherAssert.assertThat;
 
 
@@ -13,7 +14,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
  * Created by rtret on 13.10.2015.
  */
 public class LetterSteps extends ScenarioSteps {
-    protected static final Logger log = LogManager.getLogger(LetterSteps.class);
+//    protected static final Logger log = LogManager.getLogger(LetterSteps.class);
 
     @Step
     public void login(String email, String password, String userName){

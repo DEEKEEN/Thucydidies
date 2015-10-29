@@ -1,0 +1,30 @@
+<acceptance-test-run title="CheckingLetter" name="CheckingLetter" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="14669" timestamp="2015-10-28T17:28:45.532+02:00">
+  <user-story id="tests.GmailLoginTest" name="Gmail login test" path="tests"/>
+  <tags>
+    <tag name="Gmail login test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4795">
+    <screenshots>
+      <screenshot image="4bdfe8b97f87f21b702ca7158746be5c_NONE.png"/>
+    </screenshots>
+    <description>Open Gmail Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7070">
+    <screenshots>
+      <screenshot image="9e18d1d15b1e9808ccb6683290b425df_NONE.png"/>
+    </screenshots>
+    <description>Login: &lt;span class=&apos;step-parameter&apos;&gt;testmail8601, qqqqqqqqqqq, testmail8601@gmail.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2145">
+    <screenshots>
+      <screenshot image="9d3f1b45f91f438ce9af40611da24286_NONE.png"/>
+    </screenshots>
+    <description>Open letter: &lt;span class=&apos;step-parameter&apos;&gt;TRETYAK Roman&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="613">
+    <screenshots>
+      <screenshot image="9d3f1b45f91f438ce9af40611da24286_NONE.png"/>
+    </screenshots>
+    <description>Check letter content: &lt;span class=&apos;step-parameter&apos;&gt;TRETYAK Roman, Hello World, Automation Test&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,8 +1,8 @@
 package pages;
 
+import net.serenitybdd.core.annotations.findby.How;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.findby.FindBy;
-import net.thucydides.core.annotations.findby.How;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

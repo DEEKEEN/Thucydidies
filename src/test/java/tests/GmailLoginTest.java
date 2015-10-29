@@ -3,21 +3,19 @@ package tests;
 
 import models.DefaultLetter;
 import models.User;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.*;
 import net.thucydides.core.pages.Pages;
-import net.thucydides.junit.runners.ThucydidesRunner;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-import requirements.Application;
 import steps.LetterSteps;
 import utils.CommonUtils;
 
-
-@RunWith(ThucydidesRunner.class)
-@Story(Application.GmailLetterCheck.LetterCheck.class)
-@WithTag("feature:Letter")
+@RunWith(SerenityRunner.class)
+//@Story(Application.GmailLetterCheck.LetterCheck.class)
+//@WithTag("feature:Letter")
 public class GmailLoginTest {
 
     @Managed

@@ -1,10 +1,10 @@
 package pages;
 
+import net.serenitybdd.core.annotations.findby.How;
+import net.thucydides.core.annotations.findby.FindBy;
 import net.thucydides.core.pages.PageObject;
 
 
-import net.thucydides.core.annotations.findby.FindBy;
-import net.thucydides.core.annotations.findby.How;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * Created by Roman_Tretyak on 8/4/2015.
  */
 public class GmailHomePage  extends PageObject {
-    @FindBy(how = net.thucydides.core.annotations.findby.How.XPATH, using = "//a[contains(@title, 'Google Account')]")
+    @FindBy(how = How.XPATH, using = "//a[contains(@title, 'Google Account')]")
     private WebElement userName;
 
     @FindBy(how = How.XPATH, using = "//div[@class = 'yW']")

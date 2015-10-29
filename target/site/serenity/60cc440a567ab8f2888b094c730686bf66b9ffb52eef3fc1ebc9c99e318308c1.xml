@@ -1,0 +1,18 @@
+<acceptance-test-run title="Login to Gmail" name="LoginTest" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12986" timestamp="2015-10-28T17:29:01.410+02:00">
+  <user-story id="tests.GmailLoginTest" name="Gmail login test" path="tests"/>
+  <tags>
+    <tag name="Gmail login test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="4731">
+    <screenshots>
+      <screenshot image="4bdfe8b97f87f21b702ca7158746be5c_NONE.png"/>
+    </screenshots>
+    <description>Open Gmail Page Step</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8241">
+    <screenshots>
+      <screenshot image="e67c7c6a992670432df9252f685069d7_NONE.png"/>
+    </screenshots>
+    <description>Login: &lt;span class=&apos;step-parameter&apos;&gt;testmail8601, qqqqqqqqqqq, testmail8601@gmail.com&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
